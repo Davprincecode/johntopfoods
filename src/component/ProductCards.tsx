@@ -1,5 +1,5 @@
-import React from 'react'
-import product1 from "../assets/images/100g (sole fish) - Ziplock pack.jpg";
+// import React from 'react'
+// import product1 from "../assets/images/100g (sole fish) - Ziplock pack.jpg";
 import product2 from "../assets/images/100g - Plastic pack.jpg";
 import product3 from "../assets/images/100g - Ziplock pack.jpg";
 import product4 from "../assets/images/15g - Nylon pack.jpg";

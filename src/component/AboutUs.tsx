@@ -1,5 +1,5 @@
-import React from 'react'
-import seaFood from "../assets/images/seafood.png";
+// import React from 'react'
+// import seaFood from "../assets/images/seafood.png";
 import seaFood2 from "../assets/images/Spanish.jpg";
 import crayfish from "../assets/images/crayfishmove.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

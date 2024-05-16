@@ -1,6 +1,6 @@
-import React from 'react'
+// import React from 'react'
 import seaFood from "../assets/images/seafood.png";
-import seaFood2 from "../assets/images/seafood2.png";
+// import seaFood2 from "../assets/images/seafood2.png";
 import Carousel from 'react-multi-carousel';
 import img1 from '../assets/images/100g - Plastic pack.jpg'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';

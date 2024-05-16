@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import Carousel from 'react-multi-carousel';
 import image1 from "../assets/images/100g - Plastic pack.jpg";
 import image2 from "../assets/images/350g (Sole fish) - Ziplock pack.jpg";

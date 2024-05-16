@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import image1 from "../assets/images/100g - Plastic pack.jpg";
 
 function Blog() {

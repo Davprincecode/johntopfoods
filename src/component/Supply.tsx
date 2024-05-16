@@ -1,5 +1,5 @@
-import seaFood from "../assets/images/seafood.png";
-import seaFood2 from "../assets/images/seafood2.png";
+// import seaFood from "../assets/images/seafood.png";
+// import seaFood2 from "../assets/images/seafood2.png";
 import super1 from "../assets/images/supermarket1.jpeg";
 import super2 from "../assets/images/supermarket2.jpeg";
 import super3 from "../assets/images/supermarket3.jpeg";

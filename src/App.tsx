@@ -13,7 +13,7 @@ import Blog from "./component/Blog";
 import BlogDetails from "./component/BlogDetails";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
-import MapUi from "./component/MapUi";
+// import MapUi from "./component/MapUi";
 
 function App() {
   return (
