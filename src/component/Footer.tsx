@@ -16,7 +16,9 @@ function Footer() {
     <div className="contactholder">
       <div className="contact1">
         <h4>location</h4>
-        <p> business arena shop 3 1st floor, goodluck jonathan housing estate, 28A, Idimu 100276, Lagos</p>
+        <p>
+        Zone E Block 7 shop 3 Besides OGD TUTORS OAU CENTRAL MARKET, OAU ILE-IFE, OSUN STATE
+        </p>
       </div>
     </div>
 

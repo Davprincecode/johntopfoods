@@ -38,6 +38,10 @@ function ProductCards() {
             <div className="btn">
               <p>order</p>
             </div>
+
+            <a target="_blank"  href="https://wa.me/2348138457885?text=Hello,  I am interest in the buying    sea food (N450, 000)">Order Now</a>
+
+
           </div>
 
         </div>

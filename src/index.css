@@ -54,14 +54,16 @@ li{
 }
 .itemscontainer ul li a{
   font-weight: bold;
-  color: var(--mixedColor) !important;
+  /* color: var(--mixedColor) !important; */
+  color: white !important;
 }
 .itemscontainer ul li:hover{
   background-color: var(--secondaryColor);
   color: white !important;
 }
 .itemscontainer ul li:hover > a{
-  color: white !important;  
+  color: white !important;
+  font-size: 12px;  
 }
 .sideNavOverall {
  display: none; 
@@ -77,6 +79,10 @@ li{
 /* .itemscontainer{
 
 } */
+
+.aboutUs{
+  margin-top: 60px !important;
+}
 
 .itemscontainer .closeNavBar{
   padding-top: 50px;
@@ -553,7 +559,8 @@ display: flex;
   margin-bottom: 15px;
   /* color: #FF3E54; */
   margin-right: 10px;
-  color: #a8dab4;
+  /* color: #a8dab4; */
+  color: #da9926;
 }
 /* .contact1{
 
