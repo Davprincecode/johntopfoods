@@ -4,7 +4,7 @@ function Footer() {
   return (
     <div>
       {/* <!-- ===========contact start====== --> */}
-<div className="contactcontainer">
+<div className="contactcontainer" id="contactcontainer">
 
     {/* <!-- <div className="contactheader">
         <h2>get in touch</h2>
@@ -25,7 +25,7 @@ function Footer() {
     <div className="contactholder">
         <div className="contact1">
           <h4>contact us</h4>
-          <p>0816 386 1584</p>
+          <p>08057386375</p>
         </div>
     </div>
 
@@ -68,7 +68,7 @@ function Footer() {
 
  <div className="underline"></div>
   <div className="copyright">
-    copyright softnet 2023 develop by davprincecode </div>
+    copyright @ 2024 develop by davprincecode </div>
 </div>
 
 {/* <!-- ========contact end=========== --> */}

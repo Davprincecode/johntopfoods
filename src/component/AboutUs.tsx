@@ -7,7 +7,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 function AboutUs() {
   return (
-    <div className='aboutUs'>
+    <div className='aboutUs' id="aboutUs">
      
       <div className="aboutCon">
         
@@ -19,10 +19,12 @@ function AboutUs() {
            </p>
         
          <div className="aboutBtn">
+          <a href="https://wa.me/2348057386375?text=Hello,  I need quotation or price on sea foods">
         <div className="btn">
-            <p>contact us</p>
+            <p>Get Quotation</p>
             <FontAwesomeIcon icon={faArrowRight} />
         </div>
+      </a>
         </div>
 
         </div>

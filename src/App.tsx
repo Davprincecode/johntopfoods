@@ -21,11 +21,6 @@ function App() {
     <Header />
     <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/product" element={<ProductCarousel />} />
-        <Route path="/productcards" element={<ProductCards />} />
-        <Route path="/about" element={<AboutUs />} />
-        <Route path="/supply" element={<Supply />} />
-        <Route path="/supermat" element={<SuperMat />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogdetails" element={<BlogDetails />} />
     </Routes>

@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import logo from "../assets/images/johntopLogo.png";
+import { Link } from "react-router-dom";
 
 function Header() {
 const [navOpen, setNavOpen] = useState(false);
@@ -14,7 +15,7 @@ const navFunction = () =>{
 </div>
 <div className="navcontainer">
     
-<a href="index.html">
+<a href="/">
 <div className="logocontainer">
     <img src={logo} alt="" />
 </div>
@@ -22,10 +23,11 @@ const navFunction = () =>{
 
 <div className="itemscontainer">
     <ul className={navOpen ? "openNavBar" : "closeNavBar"}>
-        <li><a href="index.html">Home</a> </li>
-        <li><a href="about.html">about us</a></li>
-        <li><a href="product.html">product</a></li>
-        <li><a href="contact.html">contact us</a> </li>
+        <li> <a href="/"> Home </a> </li>
+
+        <li><a href="#aboutUs">about us</a></li>
+        <li><a href="#cardsParentCon">product</a></li>
+        <li><a href="#contactcontainer">contact us</a> </li>
         
         {/* <!-- <li><a href="">about</a></li> --> */}
     </ul>

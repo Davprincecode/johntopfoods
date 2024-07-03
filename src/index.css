@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+a{
+  color: white;
+}
 :root{
   --primaryColor : #EB232D;
   --secondaryColor : #DF9B2C;
@@ -213,11 +216,24 @@ display: flex;
 align-items: center;
 justify-content: center;
 }
-.btn{
+.blogBtnFlex{
   display: flex;
-  align-items: center;
-  gap: 10px;
-  text-transform: capitalize;
+  justify-content: end;
+}
+
+.blogBtnFlex .blogBtn{
+  width: 100px;
+  padding: 10px;
+  border-radius: 7px !important;
+  cursor: pointer;
+  color: white;
+}
+
+.btn{
+display: flex;
+align-items: center;
+gap: 10px;
+text-transform: capitalize;
 color: white;
 font-weight: bold;
 border-radius: 49px !important;
@@ -226,6 +242,9 @@ padding: 6px 20px;
 margin: 10px 0 0;
 background: -webkit-linear-gradient(-45deg, #EB232D 0%,#DE8B2D 100%);
 background: linear-gradient(135deg, #EB232D 0%,#DE8B2D 100%);
+}
+.btn a{
+  color: white;
 }
 /* .cardBtn p{
 
@@ -319,14 +338,16 @@ height: 300px !important;
   padding: 10px 20px;
 }
 .aboutBtn .btn{
-width: 140px !important;
-padding-top: 10px !important;
-padding-bottom: 10px !important;
-padding-right: 10px !important;
-padding-left: 15px !important;
-font-size: 16px;
-font-weight: bold;
-cursor: pointer;
+  /* padding-left: 22px !important; */
+  width: 169px !important;
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.aboutUsDetails .btn{
+  width: 200px !important
 }
 .aboutBtn .btn:hover > svg {
   margin-left: 10px;
@@ -433,6 +454,7 @@ color: var(--mixedColor);
 .blogTitle h1{
   margin: 15px 0px;
   font-size: 18px;
+  color: black;
 }
 /* .blogBody{
 
@@ -443,6 +465,7 @@ color: var(--mixedColor);
 
 /* =============blog details========= */
 .blogDetails{
+  margin-top: 50px;
 padding: 20px;
 }
 .blogDetails .react-multiple-carousel__arrow{
@@ -560,7 +583,7 @@ display: flex;
   /* color: #FF3E54; */
   margin-right: 10px;
   /* color: #a8dab4; */
-  color: #da9926;
+  color: #FF3E54;
 }
 /* .contact1{
 

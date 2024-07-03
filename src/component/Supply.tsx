@@ -95,17 +95,16 @@ function Supply() {
           </ul>
        
       <div className="aboutBtn">
+      <a href="https://wa.me/2348057386375?text=Hello,  Can you supply us with your product in our suppermarket">
        <div className="btn">
-           <p>contact us</p>
+           <p>contact for supply</p>
            <FontAwesomeIcon icon={faArrowRight} />
        </div>
+       </a>
        </div>
 
        </div>
 {/* =================== */}
-
-
-
 
 
      </div>

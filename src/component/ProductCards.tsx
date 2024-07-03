@@ -9,7 +9,7 @@ import product6 from "../assets/images/productbckremove.png";
 
 function ProductCards() {
   return (
-    <div className='cardsParentCon'>
+    <div className='cardsParentCon' id="cardsParentCon">
       <div className="cardsHeader">
         <h1>some of our product</h1>
       </div>
@@ -35,11 +35,15 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
+            
             <div className="btn">
-              <p>order</p>
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
+            
 
-            <a target="_blank"  href="https://wa.me/2348138457885?text=Hello,  I am interest in the buying    sea food (N450, 000)">Order Now</a>
+            
 
 
           </div>
@@ -65,10 +69,12 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
-            <div className="btn">
-              <p>order</p>
+          <div className="btn">
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
-          </div>
+            </div>
 
         </div>
         <div className="cardsItems">
@@ -91,10 +97,14 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
-            <div className="btn">
-              <p>order</p>
+          <div className="btn">
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
-          </div>
+            </div>
+
+          
 
         </div>
 
@@ -118,10 +128,14 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
-            <div className="btn">
-              <p>order</p>
+          <div className="btn">
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
-          </div>
+            </div>
+
+          
         </div>
 
         <div className="cardsItems">
@@ -144,10 +158,12 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
-            <div className="btn">
-              <p>order</p>
+          <div className="btn">
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
-          </div>
+            </div>
 
         </div>
         <div className="cardsItems">
@@ -170,10 +186,12 @@ function ProductCards() {
          </div>
           
           <div className="cardBtn">
-            <div className="btn">
-              <p>order</p>
+          <div className="btn">
+              <p>
+              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
+              </p>
             </div>
-          </div>
+            </div>
 
         </div>
 
