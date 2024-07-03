@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import logo from "../assets/images/johntopLogo.png";
-import { Link } from "react-router-dom";
+
 
 function Header() {
 const [navOpen, setNavOpen] = useState(false);

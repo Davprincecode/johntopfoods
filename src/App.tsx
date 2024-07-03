@@ -3,12 +3,7 @@ import { Route, Routes} from "react-router-dom";
 import './App.css'
 import Home from './pages/Home';
 import 'react-multi-carousel/lib/styles.css';
-import ProductCarousel from "./component/ProductCarousel";
 import ContactBtn from "./component/ContactBtn";
-import ProductCards from "./component/ProductCards";
-import AboutUs from "./component/AboutUs";
-import Supply from "./component/Supply";
-import SuperMat from "./component/SuperMat";
 import Blog from "./component/Blog";
 import BlogDetails from "./component/BlogDetails";
 import Header from "./component/Header";
