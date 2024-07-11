@@ -88,9 +88,40 @@ function Supply() {
             consider partnering with us to offer your customers the best seafood experience!
           </p>
           <ul>
-            <li>ace</li>
-            <li>brent</li>
-            <li>ojaja more e.t.c</li>
+
+  <p> Osun State </p> 
+
+<li> Ace supermarket Osogbo.</li> 
+<li>Embassy supermarket Osogbo.</li>
+<li>Magrite mall Osogbo</li>
+<li>Lead superstore Osogbo </li>
+<li>Vanguard pharmacy, opp. Technical college Osogbo.</li>
+<li>More Mart Osogbo</li>
+<li>Ojaja More Osogbo</li>
+<li>City star⭐ Mart Osogbo</li>
+<li>Vanguard Pharmacy Power lines Area Osogbo </li>
+<li>BTQ Superstore Testing ground Area Osogbo</li>
+
+<p> Kwara state </p> 
+<li>Ace supermarket Ilorin.</li>
+
+<p> Ogun state </p>
+
+<li>Ace Abeokuta</li>
+<li>Ace Ijebu-Ode</li>
+
+ <p> Oyo state </p> 
+<li>Tasbif supermarket Ogbomoso.</li>
+<li>Alata supermarket Ogbomoso.</li>
+<li>Ace supermarket Ogbomoso.</li>
+<li>Brent supermarket Ogbomoso.</li>
+<li>Ace Iseyin</li>
+<li>Ace Saki</li>
+
+<p> Abuja </p> 
+<li>Cost cutter supermarket Abuja</li>
+
+
 
           </ul>
        

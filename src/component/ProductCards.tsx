@@ -1,203 +1,108 @@
-// import React from 'react'
-// import product1 from "../assets/images/100g (sole fish) - Ziplock pack.jpg";
-import product2 from "../assets/images/100g - Plastic pack.jpg";
-import product3 from "../assets/images/100g - Ziplock pack.jpg";
-import product4 from "../assets/images/15g - Nylon pack.jpg";
-import product5 from "../assets/images/200g - Ziplock pack.jpg";
-import product6 from "../assets/images/productbckremove.png";
+import { useEffect, useState } from "react";
+import { baseUrl, imageUrl } from "../apis/fetchData";
 
-
-function ProductCards() {
-  return (
-    <div className='cardsParentCon' id="cardsParentCon">
-      <div className="cardsHeader">
-        <h1>some of our product</h1>
-      </div>
-      <div className="cardsParent">
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product6} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-           <h5>200<span>kg</span></h5> 
-          </div>
-          <div className="productPrice">
-            
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-            
-            <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            
-
-            
-
-
-          </div>
-
-        </div>
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product2} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-            <h5>200 <span>kg</span></h5>
-          </div>
-          <div className="productPrice">
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-          <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            </div>
-
-        </div>
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product3} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-            <h5>200 <span>kg</span></h5>
-          </div>
-          <div className="productPrice">
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-          <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            </div>
-
-          
-
-        </div>
-
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product4} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-            <h5>200 <span>kg</span></h5>
-          </div>
-          <div className="productPrice">
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-          <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            </div>
-
-          
-        </div>
-
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product5} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-            <h5>200 <span>kg</span></h5>
-          </div>
-          <div className="productPrice">
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-          <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            </div>
-
-        </div>
-        <div className="cardsItems">
-         <div className="productImg">
-          <img src={product6} alt="" />
-         </div>
-
-         <div className="productDetails">
-          <div className="productName">
-            <h4>sole fish</h4>
-          </div>
-          <div className="productWeight">
-            <h5>200 <span>kg</span></h5>
-          </div>
-          <div className="productPrice">
-           <h4><span>₦</span>2000</h4>
-           <h4>-</h4>
-           <h4>5000</h4>
-          </div>
-         </div>
-          
-          <div className="cardBtn">
-          <div className="btn">
-              <p>
-              <a target="_blank"  href="https://wa.me/2348057386375?text=Hello,  I want to buy sole fish 200kg">Order</a>  
-              </p>
-            </div>
-            </div>
-
-        </div>
-
-      </div>
-    </div>
-  )
+interface Product {
+  productId: number;
+  productName: string;
+  productWeight: number;
+  productPrice: number;
+  productImage: string;
 }
 
-export default ProductCards
+interface ApiResponse {
+  requestSuccessful: boolean;
+  responseMessage: string;
+  responseBody: Product;
+}
+
+function ProductCards() {
+  const [products, setProducts] = useState<Product[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    const fetchProducts = async () => {
+      const myHeaders = new Headers();
+      myHeaders.append("Content-Type", "application/json");
+
+      const requestOptions: RequestInit = {
+        method: 'GET',
+        headers: myHeaders,
+        redirect: 'follow',
+      };
+
+      try {
+        const response = await fetch(`${baseUrl}/products`, requestOptions);
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        const responseDetails = await response.json();
+        
+
+        if (responseDetails.data) {
+
+          const extractedProducts = responseDetails.data
+            .filter((item: ApiResponse) => item.requestSuccessful)
+            .map((item: ApiResponse) => item.responseBody);
+
+          setProducts(extractedProducts);
+        } else {
+          setError("Invalid response format");
+        }
+      } catch (error: any) {
+        setError(`Failed to fetch products: ${error.message}`);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchProducts();
+  }, []);
+
+  if (loading) {
+    return <div>Loading...</div>;
+  }
+
+  if (error) {
+    return <div>{error}</div>;
+  }
+
+  return (
+    <div className="cardsParentCon" id="cardsParentCon">
+      <div className="cardsHeader">
+        <h1>Some of our products</h1>
+      </div>
+      <div className="cardsParent">
+        {products.map((item, index) => (
+          <div className="cardsItems" key={index}>
+            <div className="productImg">
+              <img src={`${imageUrl}${item.productImage}`} alt={item.productName} />
+            </div>
+            <div className="productDetails">
+              <div className="productName">
+                <h4>{item.productName}</h4>
+              </div>
+              <div className="productWeight">
+                <h5>{item.productWeight} kg</h5>
+              </div>
+              <div className="productPrice">
+                <h4>₦{item.productPrice}</h4>
+              </div>
+            </div>
+            <div className="cardBtn">
+              <div className="btn">
+                <p>
+                  <a target="_blank" rel="noopener noreferrer" href={`https://wa.me/2348057386375?text=Hello, I want to buy ${item.productName} ${item.productWeight}kg`}>
+                    Order
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+export default ProductCards;

@@ -17,7 +17,7 @@ function App() {
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
-        <Route path="/blogdetails" element={<BlogDetails />} />
+        <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
     </Routes>
     <ContactBtn />
     {/* <MapUi /> */}

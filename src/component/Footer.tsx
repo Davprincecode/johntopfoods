@@ -1,4 +1,8 @@
-// import React from 'react'
+import whatsapp from "../assets/images/whatsappLogo.png";
+import facebook from "../assets/images/facebook.png";
+import instagram from "../assets/images/instagram.jpg";
+import tiktok from "../assets/images/tiktok.png";
+
 
 function Footer() {
   return (
@@ -41,22 +45,28 @@ function Footer() {
           <h4>stay connected</h4>
           <div className="followflex">
 
-            <a href="https://wa.me/08163861584">
-              {/* <div className="followimg" style="width: 30px; height: 30px">
-                  <img src="images/whatsapp.png" alt="" style="    width: 120%; height: 120%; padding-bottom: 9px;">
-              </div> */}
+            <a href="http://wa.me/2348057386375" target="_blank">
+              <div className="followimg" >
+                  <img src={whatsapp} />
+              </div>
             </a>
 
-            <a href="">
-              {/* <div className="followimg">
-                  <img src="images/facebook.png" alt="">
-              </div> */}
+            <a href="https://www.facebook.com/johntopfoods/" target="_blank">
+              <div className="followimg">
+                  <img src={facebook} />
+              </div>
             </a>
                
-            <a href="">
-              {/* <div className="followimg">
-                  <img src="images/instagram.png" alt="">
-              </div> */}
+            <a href="https://instagram.com/johntopfoods?utm_medium=copy_link" target="_blank">
+              <div className="followimg">
+                  <img src={instagram} />
+              </div>
+            </a>
+            
+            <a href="https://tiktok.com/@johntopfoods" target="_blank">
+              <div className="followimg">
+                  <img src={tiktok} />
+              </div>
             </a>
 
 
