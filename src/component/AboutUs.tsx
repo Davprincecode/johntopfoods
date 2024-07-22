@@ -13,9 +13,9 @@ function AboutUs() {
         
 
         <div className="aboutUsDetails">
-           <h2>Welcome to JohnTop Foods</h2>
+           <h2>Welcome to Johntop Foods</h2>
            <p>
-           <strong>JohnTop Food</strong> is a registered company under NAFDAC, specializing in a wide variety of seafood products. Our registration has granted us the license to supply top-quality seafood to supermarkets, retail shops, and individual consumers. Whether you're a consumer, retailer, or wholesaler, you can trust us to provide you with the freshest seafood options.
+           <strong>Johntop Foods</strong> is a registered company under NAFDAC, specializing in a wide variety of seafood products. Our registration has granted us the license to supply top-quality seafood to supermarkets, retail shops, and individual consumers. Whether you're a consumer, retailer, or wholesaler, you can trust us to provide you with the freshest seafood options.
            </p>
         
          <div className="aboutBtn">

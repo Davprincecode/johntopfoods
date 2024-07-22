@@ -80,12 +80,9 @@ function Supply() {
   {/* ====================== */}
     {/* ===================== */}
        <div className="aboutUsDetails">
-          <h2>Some Supermarket We Supplied</h2>
+          <h2>Some Supermarkets We Supply</h2>
           <p>
-            We supply a wide range of seafood products to these supermarkets,
-            ensuring that customers have access to fresh and high-quality seafood options.
-            If you're a supermarket owner or manager,
-            consider partnering with us to offer your customers the best seafood experience!
+          We supply a wide range of seafood products to these supermarkets, ensuring that customers have access to fresh and high-quality seafood options. If you're a supermarket owner or manager, consider partnering with us to offer your customers the best seafood experience!
           </p>
           <ul>
 
@@ -109,14 +106,32 @@ function Supply() {
 
 <li>Ace Abeokuta</li>
 <li>Ace Ijebu-Ode</li>
+{/* <li>Vanguard Pharmacy</li> */}
 
  <p> Oyo state </p> 
+<li> Ace mall Bodija, Akobo and Oluyole</li> 
+<li> Brent supermarket Apata, Old Ife road and Moniya</li>
+<li> Tango supermarket Jericho Mall</li>
+<li> Vanguard pharmacy (check all the outlets in Ibadan)</li>
+<li> Troy pharmacy Idi Ape</li>
+<li> Troyhealth pharmacy Bodija</li> 
+<li>  More Mart inside Vintage Mall Alakia and Olorunsogo</li> 
+<li> Westmead supermarket Mokola</li>
+<li> His Praise supermarket Bodija</li> 
+<li> Sunrise supermarket (Bond Mall) Bodija, Akala way and Ring road</li>
+<li> Foodco  (check all the 14 outlets in Ibadan)</li>
+<li> Hailey supermarket Kolade Ishola Akobo</li>
+<li> Minarets Pharmacy Apete and branches</li> 
+<li> Optimed pharmacy Monatan and branches</li>
+<li> Grocery park supermarket inside Iris Mall Apata Ibadan</li>
 <li>Tasbif supermarket Ogbomoso.</li>
 <li>Alata supermarket Ogbomoso.</li>
 <li>Ace supermarket Ogbomoso.</li>
 <li>Brent supermarket Ogbomoso.</li>
-<li>Ace Iseyin</li>
-<li>Ace Saki</li>
+<li>Ace supermarket Iseyin</li>
+<li>Ace supermarket Saki</li>
+
+
 
 <p> Abuja </p> 
 <li>Cost cutter supermarket Abuja</li>

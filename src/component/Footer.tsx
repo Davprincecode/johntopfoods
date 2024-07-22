@@ -19,9 +19,13 @@ function Footer() {
 
     <div className="contactholder">
       <div className="contact1">
-        <h4>location</h4>
+        <h4>locations</h4>
         <p>
         Zone E Block 7 shop 3 Besides OGD TUTORS OAU CENTRAL MARKET, OAU ILE-IFE, OSUN STATE
+        </p>
+        <br />
+        <p>
+        Unit 3 Technology Incubation Centre, Ita Osa, Ondo Road, Ile-Ife, Osun State, Nigeria.
         </p>
       </div>
     </div>
@@ -36,7 +40,7 @@ function Footer() {
     <div className="contactholder">
         <div className="contact1">
           <h4>open hours</h4>
-          <p>Open Daily: 8am - 10pm</p>
+          <p>Open Daily: 8am - 6pm</p>
         </div>
     </div>
   
