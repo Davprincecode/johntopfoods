@@ -83,7 +83,7 @@ function ProductCards() {
                 <h4>{item.productName}</h4>
               </div>
               <div className="productWeight">
-                <h5>{item.productWeight} kg</h5>
+                <h5>{item.productWeight}</h5>
               </div>
               <div className="productPrice">
                 <h4>₦{item.productPrice}</h4>

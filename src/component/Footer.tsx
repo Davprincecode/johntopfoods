@@ -21,11 +21,15 @@ function Footer() {
       <div className="contact1">
         <h4>locations</h4>
         <p>
-        Zone E Block 7 shop 3 Besides OGD TUTORS OAU CENTRAL MARKET, OAU ILE-IFE, OSUN STATE
+        Zone E Block 7 shop 3 Beside OGD TUTORS OAU CENTRAL MARKET, OAU ILE-IFE, OSUN STATE
         </p>
         <br />
         <p>
         Unit 3 Technology Incubation Centre, Ita Osa, Ondo Road, Ile-Ife, Osun State, Nigeria.
+        </p>
+        <br />
+        <p>
+        No 1 Broad Street Ayetoro Ilaje Ondo State
         </p>
       </div>
     </div>
