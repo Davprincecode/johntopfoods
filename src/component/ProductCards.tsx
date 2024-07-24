@@ -5,6 +5,7 @@ interface Product {
   productId: number;
   productName: string;
   productWeight: number;
+  productSize: string;
   productPrice: number;
   productImage: string;
 }
@@ -83,7 +84,7 @@ function ProductCards() {
                 <h4>{item.productName}</h4>
               </div>
               <div className="productWeight">
-                <h5>{item.productWeight}</h5>
+                <h5>{item.productWeight}{item.productSize}</h5>
               </div>
               <div className="productPrice">
                 <h4>₦{item.productPrice}</h4>
@@ -92,7 +93,7 @@ function ProductCards() {
             <div className="cardBtn">
               <div className="btn">
                 <p>
-                  <a target="_blank" rel="noopener noreferrer" href={`https://wa.me/2348057386375?text=Hello, I want to buy ${item.productName} ${item.productWeight}kg`}>
+                  <a target="_blank" rel="noopener noreferrer" href={`https://wa.me/2348057386375?text=Hello, I want to buy ${item.productName} ${item.productWeight}${item.productSize}`}>
                     Order
                   </a>
                 </p>

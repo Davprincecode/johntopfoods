@@ -157,13 +157,17 @@ padding-bottom: 50px;
 }
 .cardsParent{
   display: flex;
-  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
   flex-wrap: wrap;
   padding: 20px;
 
+  /* Client ID  */
 }
 .cardsItems{
-flex: 1;
+  /* Client secret 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 */
+/* flex: 1; */
 cursor: pointer;
  /* border: 2px solid; */
  width: 150px;
