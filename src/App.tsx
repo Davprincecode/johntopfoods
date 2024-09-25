@@ -8,6 +8,7 @@ import Blog from "./component/Blog";
 import BlogDetails from "./component/BlogDetails";
 import Header from "./component/Header";
 import Footer from "./component/Footer";
+import Homes from "./inventory/Homes";
 // import MapUi from "./component/MapUi";
 // import { GoogleLogin } from '@react-oauth/google';
 // import { jwtDecode } from "jwt-decode";
@@ -40,15 +41,18 @@ function App() {
 // />
 
   <div className="App">
-    <Header />
+    {/* <Header /> */}
     <Routes>
+        <Route path="/mart" element={<Homes  />} />
+        
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
     </Routes>
-    <ContactBtn />
+    {/* <ContactBtn /> */}
     {/* <MapUi /> */}
-    <Footer/>
+
+    {/* <Footer/> */}
   </div>
   )
 }

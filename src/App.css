@@ -1,0 +1,247 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+:root{
+    --primaryColor : #EB232D;
+    --secondaryColor : #DF9B2C;
+    --secondary2Color : #D6DF20;
+    --mixedColor : #DE8B2D;
+    --bck : rgb(188, 181, 181);
+    --tablecolor : #e26a2d;
+    --whiteBck :  white;
+    --bckBtn: linear-gradient(135deg,#eb232d,#de8b2d);
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body{
+background-color: var(--bck);
+}
+.mainWrapper{
+    display: flex;
+    }
+    .sideWrapper{
+        display: none;
+        transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .mainContainer{
+        margin-left: 220px;
+        width: 100%;
+        height: 100vh;
+        padding-top: 50px;
+        border: 2px solid;
+    }
+    
+    .mainContainer h1{
+    font-size: 25px;
+    padding-left: 3px;
+    margin-bottom: 25px;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-image: linear-gradient(135deg, #eb232d, #de8b2d) 1 100%;
+    }
+
+
+.sideNav{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--whiteBck);
+    width: 220px;
+    height: 100vh;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 50px;
+    transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    .barMenu{
+        display: none;
+    }
+    .harmburger{
+        display: none;
+    }
+    .sideNavLogoContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    .sideNavLogo{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background-color: var(--primaryColor);
+        padding: 10px;
+    }
+    .sideNavLogoContainer p{
+        font-weight: bold;
+        font-size: 18px;
+        /* font-style: italic; */
+        margin-top: 5px;
+    }
+    .sideNavMenu{
+    margin-top: 50px;
+    }
+    /* .sideNavMenu ul{
+    
+    } */
+    .sideNavMenu ul .active{
+    background-image: var(--bckBtn);
+    }
+    .sideNavMenu ul li{
+    margin: 10px 0px;
+    padding: 7px 0px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .sideNavMenu ul li i{
+        margin-right: 7px;
+    }
+    .sideNavMenu ul li a{
+    text-transform: capitalize;
+    }
+    .sideNavMenu ul li:hover{
+    background-image: var(--bckBtn);
+    }
+    .sideNavMenu ul li a:hover{
+      color: var(--whiteBck);
+    }
+
+/* ==========================end of menu ============== */
+.upperContainerWrapper{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.upperCon{
+    background-color: var(--whiteBck);
+    border-radius: 10px;
+    padding: 10px 0px 10px 10px;
+    width: 250px;
+    margin-bottom: 10px;
+}
+.upperConFlex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 10px;
+}
+.upperICon{
+background-color: var(--tablecolor);
+border-radius: 50%;
+padding: 10px;
+}
+.upperICon i{
+color: white;
+}
+.uppercontent{
+
+}
+.uppercontent h2{
+text-transform: capitalize;
+}
+.uppercontent p{
+    text-transform: capitalize;
+    color: var(--mixedColor)
+}
+.containerNumber{
+    margin-top: 40px;
+    padding: 10px 10px 10px 0px;
+    font-weight: bold;
+    text-align: right;
+    background-color: var(--mixedColor);
+}
+
+
+
+@media(max-width : 550px){
+    .harmburger{
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    }
+.sideNavLogoContainer{
+    display: none;
+}
+.sideNavActive{
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: var(--whiteBck);
+    width: 200px;
+    height: 100vh;
+    text-align: center;
+    padding-right: 10px;
+    padding-top: 50px;
+    z-index: 99;
+    transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sideNav{
+left : -100%;
+border: 2px solid;
+z-index: 99;
+width: 220px;
+}
+.barMenu{
+    display: block;
+}
+.sideWrapperActive{
+    display: block;
+    background-color: rgba(128, 128, 128, 0.9);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 8;
+    transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.sideWrapper{
+    display: block;
+    /* content: " "; */
+    /* background-color: rgba(128, 128, 128, 0.9); */
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: -100%;
+    right: 0px;
+    z-index: 8;
+}
+.sideNav span{
+    display: none;
+}
+.addProductCon {
+    width: 100%;
+}
+.mainContainer {
+    margin-left: 1px;
+    margin-right: 1px;
+    overflow-x: hidden;
+}
+}
