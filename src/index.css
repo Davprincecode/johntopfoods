@@ -143,7 +143,7 @@ li{
   padding: 20px 10px 0px 10px;
 }
 /* ================product cards ================= */
-/* aboutCon.react-multi-carousel-item */
+
 .cardsParentCon{
 padding-top: 70px;
 padding-bottom: 50px;
@@ -163,7 +163,7 @@ padding-bottom: 50px;
   flex-wrap: wrap;
   padding: 20px;
 
-  /* Client ID  */
+ 
 }
 .cardsItems{
 
