@@ -29,7 +29,7 @@ interface Props {
         <li className="active">
           <a href="{{ route('index') }}">
           <i className="fa-solid fa-house"></i> 
-          <span>Home</span>
+          <span>Dashboard</span>
           </a>
         </li>
 
