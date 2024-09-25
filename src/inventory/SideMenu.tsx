@@ -36,7 +36,7 @@ interface Props {
         <li>
           <a href="{{ route('products.index') }}">
           <i className="fa-solid fa-tag"></i>
-           <span>product</span>
+           <span>my application</span>
            </a>
           </li>
 
