@@ -34,7 +34,7 @@ function Pos() {
                     <th>action</th>
                     </tr>
 
-                    {/* </div> */}
+                  
                 <tr>
             <input type="hidden" className="count" value="1" />
             <td className="productname0">
