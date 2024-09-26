@@ -134,8 +134,6 @@ function Pos() {
     <div className="productPrice">
         <div className='currency'> 
         ₦
-        {/* <img src="images/naira.png" alt="" style="width: 100%; height: 100%"> */}
-
        </div> 
        150 
     </div>
