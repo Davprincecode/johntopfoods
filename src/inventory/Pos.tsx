@@ -47,7 +47,7 @@ function Pos() {
                     1
                     <div className="plus">+</div>
                     </div>
-            {/* <input type="number" className="prdquantity0" id="productQuantity270189" value="1" /> */}
+            
                 </td>
                     <td className="unitprice0">
                     150    
