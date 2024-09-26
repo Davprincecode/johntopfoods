@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { NavLink } from 'react-router-dom';
 
 interface Props {
     navBar: boolean;
@@ -155,9 +156,9 @@ interface Props {
         <div className="topmenu">
          {/* {menuItem.icon} */}
          <i>c</i>
-          <a href={menuItem.path}>
+          <NavLink to={menuItem.path} className={({ isActive }) => (isActive ? 'active-link' : '')}>
           <span>{menuItem.title}</span>
-          </a>
+          </NavLink>
           {openSubMenuIndex === index ? (
               <i onClick={() => toggleSubMenu(index)}> down</i>
             ) : (
@@ -170,9 +171,9 @@ interface Props {
     
         {menuItem.subNavOption.map((subItem, subIndex) => (
                   <li key={subIndex}>
-                    <a href={subItem.path}>
+                    <NavLink to={subItem.path} className={({ isActive }) => (isActive ? 'active-link' : '')}>
                       <span>{subItem.title}</span>
-                    </a>
+                    </NavLink>
                   </li>
                 ))}
 
@@ -182,9 +183,9 @@ interface Props {
          ) : (
          <div className="topmenu">
          <i>c</i>
-          <a href={menuItem.path}>
+          <NavLink to={menuItem.path} className={({ isActive }) => (isActive ? 'active-link' : '')}>
           <span>{menuItem.title}</span>
-          </a>
+          </NavLink>
           </div>
         )}
 

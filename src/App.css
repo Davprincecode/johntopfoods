@@ -122,6 +122,10 @@ background-color: var(--bck);
     .sideNavMenu ul li a:hover{
       color: var(--whiteBck);
     }
+    .active-link{
+        background-color: var(--secondary2Color);
+        color: var(--whiteBck);
+    }
     .topmenu{
     display: flex;
     align-items: center;
