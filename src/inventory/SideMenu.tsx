@@ -134,7 +134,7 @@ interface Props {
 <div className="sideNavLogoContainer">
 <a href="{{ route('index') }}">
  <div className="sideNavLogo">
-    {/* <img src="{{ asset('images/johntopLogo.png') }}" alt=""> */}
+    logo
  </div>
 </a>
  <p>JohnTop Foods</p>
