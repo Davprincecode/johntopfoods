@@ -25,7 +25,7 @@ function Pos() {
             <div className="tablecontainer">
             <table className="trbdy">
                 <tbody>
-                    {/* <div className="thead"> */}
+                   
                     <tr>
                     <th>name</th>
                     <th>qty</th>
