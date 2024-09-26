@@ -148,7 +148,7 @@ interface Props {
 {/* className="active" */}
 
     {menuItems.map((menuItem, index) => (
-        <li  key={index}>
+        <li  key={index} style={{backgroundImage : openSubMenuIndex === index ? 'linear-gradient(135deg,#eb232d,#de8b2d)' : 'none'}}>
 
         {menuItem.subNavOption ? (
             <div>
