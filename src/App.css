@@ -7,9 +7,12 @@ a{
     color: black;
     text-decoration: none;
 }
+
 li{
     list-style: none;
+    
 }
+
 :root{
     --primaryColor : #EB232D;
     --secondaryColor : #DF9B2C;
@@ -65,6 +68,7 @@ background-color: var(--bck);
     padding-right: 10px;
     padding-top: 50px;
     transition: all 0.9s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: auto;
     }
     .barMenu{
         display: none;
@@ -105,9 +109,6 @@ background-color: var(--bck);
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
     cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     }
     .sideNavMenu ul li i{
         margin-right: 7px;
@@ -121,7 +122,18 @@ background-color: var(--bck);
     .sideNavMenu ul li a:hover{
       color: var(--whiteBck);
     }
+    .topmenu{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 10px;
+    }
 
+ .submenu{
+    /* position: absolute;
+    top: 0px; */
+    background-color: #DE8B2D;
+ }
 /* ==========================end of menu ============== */
 .upperContainerWrapper{
     display: flex;
@@ -202,6 +214,7 @@ left : -100%;
 border: 2px solid;
 z-index: 99;
 width: 220px;
+
 }
 .barMenu{
     display: block;

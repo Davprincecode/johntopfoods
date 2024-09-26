@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 interface Props {
     navBar: boolean;
@@ -118,6 +118,13 @@ interface Props {
   
   const SideMenu: React.FC<Props> = ({ navBar, handleToggle }) =>
     {
+
+        const [openSubMenuIndex, setOpenSubMenuIndex] = useState<number | null>(null);
+
+        const toggleSubMenu = (currentIndex: number) => {
+          setOpenSubMenuIndex(prevIndex => (prevIndex === currentIndex ? null : currentIndex));
+        };
+
   return (
     <div className={navBar ? "sideNavActive" : "sideNav"}>
  <div className="harmburger" onClick={handleToggle}>
@@ -142,11 +149,47 @@ interface Props {
 
     {menuItems.map((menuItem, index) => (
         <li  key={index}>
+
+        {menuItem.subNavOption ? (
+            <div>
+        <div className="topmenu">
+         {/* {menuItem.icon} */}
+         <i>c</i>
           <a href={menuItem.path}>
-          {menuItem.icon}
           <span>{menuItem.title}</span>
           </a>
-        </li> 
+          {openSubMenuIndex === index ? (
+              <i onClick={() => toggleSubMenu(index)}> down</i>
+            ) : (
+             <i onClick={() => toggleSubMenu(index)}> up </i>
+            )}
+          
+          </div>
+
+        <ul className="submenu" style={{display : openSubMenuIndex === index ? 'block' : 'none'}}>
+    
+        {menuItem.subNavOption.map((subItem, subIndex) => (
+                  <li key={subIndex}>
+                    <a href={subItem.path}>
+                      <span>{subItem.title}</span>
+                    </a>
+                  </li>
+                ))}
+
+        </ul>
+
+        </div>
+         ) : (
+         <div className="topmenu">
+         <i>c</i>
+          <a href={menuItem.path}>
+          <span>{menuItem.title}</span>
+          </a>
+          </div>
+        )}
+
+        </li>
+        
     ))}
 
 
@@ -154,11 +197,16 @@ interface Props {
 
 
         <li>
-          <a href="{{ route('products.index') }}">
-          <i className="fa-solid fa-tag"></i>
+    <div className="topmenu">
+         <i className="fa-solid fa-tag">icn</i>
+        <a href="{{ route('products.index') }}">
            <span>my application</span>
            </a>
-           <ul>
+           <i>click</i> 
+        </div>
+          
+
+           <ul className="submenu">
             <li>
             <a href="{{ route('products.index') }}">
           <i className="fa-solid fa-tag"></i>
@@ -172,6 +220,7 @@ interface Props {
            </a>
             </li>
            </ul>
+
           </li>
 
         <li>
