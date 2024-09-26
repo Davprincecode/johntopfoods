@@ -121,7 +121,6 @@ interface Props {
     {
 
         const [openSubMenuIndex, setOpenSubMenuIndex] = useState<number | null>(null);
-
         const toggleSubMenu = (currentIndex: number) => {
           setOpenSubMenuIndex(prevIndex => (prevIndex === currentIndex ? null : currentIndex));
         };
