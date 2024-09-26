@@ -25,15 +25,16 @@ function Pos() {
             <div className="tablecontainer">
             <table className="trbdy">
                 <tbody>
+                    {/* <div className="thead"> */}
                     <tr>
                     <th>name</th>
                     <th>qty</th>
-                    <th>unit price</th>
-                    <th>total price</th>
+                    <th>price</th>
+                    <th>total</th>
                     <th>action</th>
                     </tr>
-
-
+                    
+                    {/* </div> */}
                 <tr>
             <input type="hidden" className="count" value="1" />
 
@@ -43,7 +44,12 @@ function Pos() {
                 </td>
 
                 <td className="productquantity0">
-            <input type="number" className="prdquantity0" id="productQuantity270189" value="1" />
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            {/* <input type="number" className="prdquantity0" id="productQuantity270189" value="1" /> */}
                 </td>
         
                     <td className="unitprice0">
@@ -59,7 +65,7 @@ function Pos() {
                     <td>
                     <a href="include/delete.php?msg=product64b85a3c192ad">
                     <div className="delete">
-
+                        *
                     <div className="angle" >
                     <div className="right-arr" ></div>
                     <div className="left-arr" > </div>
@@ -108,6 +114,7 @@ function Pos() {
         </div>
 
          {/* selected item end */}
+
 
 {/* pos main container */}
         <div className="posMainContainer">

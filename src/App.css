@@ -288,21 +288,52 @@ text-transform: uppercase;
 /* --pos main con--- */
 .posmainwrapper{
     display: flex;
-    padding-top: 20px;
-
-    border: 2px solid goldenrod;
 }
 
 .posSelectItem{
-    border: 2px solid;
     width: 40%;
+    height: calc(100vh - 40px);
+}
+.tablecontainer{
+    width: 100%;
+    height: 68%;
+    overflow-y: scroll;
+}
+.tablecontainer table{
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.thead{
+    display: inline;
+    width: 100%;
+}
+.tablecontainer table  tr th {
+    font-size: 10px;
+    text-transform: capitalize;
+    text-align: center;
+    background: var(--primaryColor);
+    color: var(--whiteBck);
+    padding: 5px 0px;
+}
+.tablecontainer table tr td {
+    text-align: center;
+    padding: 8px;
+}
+
+.productCount{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.minus, .plus{
+    border: 1px solid;
+    padding: 2px;
+    cursor: pointer;
 }
 .posMainContainer{
-    border: 2px solid;
     width: 60%;
 }
-
-
 .searchflex{
   position: -webkit-sticky;
         position: sticky;
@@ -361,5 +392,63 @@ text-transform: uppercase;
     border: 2px solid black;
     cursor: pointer;
     color: whitesmoke;
+}
+.totalcontainer {
+    border-top: 1px solid gray;
+    padding-top: 5px;
+}
+.subtotalflex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    text-transform: capitalize;
+}
+.vat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    text-transform: capitalize;
+}
+.groundtotal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 10px;
+    text-transform: capitalize;
+    border: 1px solid gray;
+    padding: 5px;
+    color: green;
+    font-weight: bold;
+}
+.paymentflex {
+    display: flex;
+    float: right;
+    margin-right: 10px;
+}
+.cash, .transfer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid gold;
+    color: white;
+    padding: 10px;
+    width: 70px;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-weight: bold;
+    background-color: green;
+    box-shadow: 0 10px 30px 0px rgb(87 184 70 / 50%);
+    -moz-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+    -webkit-box-shadow: 0 10px 30px 0px rgb(87 184 70 / 50%);
+    -o-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+    -ms-box-shadow: 0 10px 30px 0px rgba(87, 184, 70, 0.5);
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
 }
 /* ===================pos end ================== */
