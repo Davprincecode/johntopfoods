@@ -121,14 +121,13 @@ function Pos() {
     <div className="posProduct">
     <div className="productIcon">
         image
-        {/* <img src="images/box.png" style="width: 100%; height: 100%"> */}
+       
     </div>
     <div className="productNameCon" >
         <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
 
         <p>Quantity <span>1219</span></p>
 
-        {/* <p>sale <span>6</span> (#19,00000)</p>  */}
     </div>
     
     <div className="productPrice">
