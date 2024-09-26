@@ -124,7 +124,6 @@ interface Props {
         const toggleSubMenu = (currentIndex: number) => {
           setOpenSubMenuIndex(prevIndex => (prevIndex === currentIndex ? null : currentIndex));
         };
-
   return (
     <div className={navBar ? "sideNavActive" : "sideNav"}>
  <div className="harmburger" onClick={handleToggle}>
