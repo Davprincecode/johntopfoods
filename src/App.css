@@ -285,6 +285,24 @@ text-transform: uppercase;
 .dottedIcon{
 
 }
+/* --pos main con--- */
+.posmainwrapper{
+    display: flex;
+    padding-top: 20px;
+
+    border: 2px solid goldenrod;
+}
+
+.posSelectItem{
+    border: 2px solid;
+    width: 40%;
+}
+.posMainContainer{
+    border: 2px solid;
+    width: 60%;
+}
+
+
 .searchflex{
   position: -webkit-sticky;
         position: sticky;
