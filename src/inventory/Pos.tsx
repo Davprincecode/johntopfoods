@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import { IoIosAdd } from "react-icons/io";
+import { FiBox } from "react-icons/fi";
+import { IoMdMore } from "react-icons/io";
 
 function Pos() {
   return (
@@ -11,7 +14,7 @@ function Pos() {
             john top foods
           </div>
           <div className="dottedIcon">
-            <i>.</i>
+          <IoMdMore />
           </div>
       </div>
 
@@ -118,24 +121,25 @@ function Pos() {
         </div>
 
     <div className="posProductCon">
+
     <div className="posProduct">
+
     <div className="productIcon">
-        image
-       
+    <FiBox />
     </div>
-    <div className="productNameCon" >
+
+    <div className="productNameCon">
         <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
-
         <p>Quantity <span>1219</span></p>
-
     </div>
     
-    <div className="productPrice">
+    <div className="posProductPrice">
         <div className='currency'> 
         ₦
        </div> 
        150 
     </div>
+
     
     <a href="sell.php?id=1818">
     <div className="productBtn" >

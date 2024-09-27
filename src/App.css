@@ -394,12 +394,13 @@ text-transform: uppercase;
 
 .posMainContainer{
     width: 60%;
+    padding: 0px 10px;
 }
 .searchflex{
   position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-        z-index: 100
+    position: sticky;
+    top: 0;
+    z-index: 100
 }
 .input {
     width: 90%;
@@ -423,21 +424,20 @@ text-transform: uppercase;
   /* margin-bottom: 200px; */
 }
 .posProduct{
-    /* position: relative; */
     display: flex;
     align-items: center;
-    padding: 10px 0px;
+    justify-content: space-between;
+    /* padding: 10px 10px; */
     background-color: whitesmoke;
     /* box-shadow: 1px 4px 4px goldenrod, 10px -4px 4px white; */
     margin-bottom: 10px;
-    justify-content: space-around;
-    width: 98%;
-    margin-right: auto;
-    margin-left: auto;
 }
 .productIcon{
- width: 40px;
-    height: 40px;   
+ /* width: 40px;
+ height: 40px;    */
+}
+.productIcon svg{
+
 }
 .productNameCon{
  text-align: center   
@@ -447,28 +447,24 @@ text-transform: uppercase;
     text-transform: capitalize;
     margin-bottom: 4px;
 }
-.productPrice{
+.posProductPrice{
     display:flex;
-       align-items: center;
-    margin-right: 50px;
+    align-items: center;
     font-weight: bold;
 }
 .currency{
-   width: 20px;
-   height: 20px
+   /* width: 20px;
+   height: 20px */
 }
 .productBtn{
-    /* position: absolute;
-    top: 0;
-    right: 0; */
     background: linear-gradient( 90deg, goldenrod 0%, #464578 100%); 
     text-align: center;
     text-transform: uppercase;
-    /* height: 64px; */
-    /* width: 70px; */
+    height: 47px;
+    width: 54px;
     padding: 0 5px;
     /* line-height: 64px; */
-    border: 2px solid black;
+    /* border: 2px solid black; */
     cursor: pointer;
     color: whitesmoke;
 }
