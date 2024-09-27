@@ -1,7 +1,8 @@
 import React from 'react';
 import { IoIosAdd } from "react-icons/io";
 import { FiBox } from "react-icons/fi";
-import { IoMdMore } from "react-icons/io";
+import { IoMdMore, IoMdClose } from "react-icons/io";
+// import {  } from "react-icons/io";
 
 function Pos() {
   return (
@@ -62,7 +63,7 @@ function Pos() {
                 <td>
                     <a href="include/delete.php?msg=product64b85a3c192ad">
                     <div className="delete">
-                        *
+                    <IoMdClose />
                     <div className="angle" >
                     <div className="right-arr" ></div>
                     <div className="left-arr" > </div>
@@ -140,17 +141,170 @@ function Pos() {
        150 
     </div>
 
-    
     <a href="sell.php?id=1818">
     <div className="productBtn" >
         sell
     </div>
-    </a>
+    </a>    
+    </div>
+
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+
     
     </div>
-           </div>
+    
+    <div className="scrollFlex">
+        <div className="scroll"><a href="">1</a> </div>
+        <div className="scroll"><a href="">1</a> </div>
+        <div className="scroll"><a href="">1</a> </div>
+        <div className="scroll"><a href="">1</a> </div>
+    </div>
 
-        </div>
+    </div>
         {/* pos main container end */}
 
       </div>
