@@ -262,13 +262,15 @@ function Pos() {
        </div> 
        150 
     </div>
-
     <a href="sell.php?id=1818">
     <div className="productBtn" >
         sell
     </div>
     </a>    
     </div>
+
+
+    
     <div className="posProduct">
 
     <div className="productIcon">
