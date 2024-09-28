@@ -618,3 +618,68 @@ height: 20px */
 }
 
 /* ============== table end ================== */
+
+/* =================== form ============= */
+
+.mainContainers{
+    /* margin-left: 220px;
+    width: 100%;
+    height: 100vh;
+    padding-top: 50px; */
+    border: 2px solid;
+    
+}
+
+.mainContainers h1{
+font-size: 25px;
+padding-left: 3px;
+margin-bottom: 25px;
+border-left-width: 2px;
+border-left-style: solid;
+border-image: linear-gradient(135deg, #eb232d, #de8b2d) 1 100%;
+}
+form{
+
+}
+form div{
+margin: 20px 0px;
+}
+form label{
+text-transform: capitalize;
+margin-bottom: 5px;
+display: block;
+/* color: #924429; */
+}
+form input, form select{
+width: 90%;
+border: none;
+outline: none;
+border: 1px solid var(--mixedColor);
+background-color: var(--bck);
+border-radius: 5px;
+padding: 5px;
+}
+.btn{
+display: flex;
+justify-content: flex-end;
+width: 90%;
+}
+.btn button{
+background-color: none;
+outline: none;
+border: none;
+background-image: var(--bckBtn);
+padding: 10px 20px 10px 20px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+.btn button i{
+    margin-right: 5px;
+}
+.divImage{
+    width: 50px;
+    height: 50px;
+}
+
+/* ==================== form end ======================== */
