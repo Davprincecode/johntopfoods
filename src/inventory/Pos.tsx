@@ -73,6 +73,282 @@ function Pos() {
                     </a>
                     </td>
                 </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+                <tr>
+            <input type="hidden" className="count" value="1" />
+            <td className="productname0">
+            STRAWBERRY FLOVOR BREAD DULCET      
+            <input type="hidden" id="productId270189" value="product64b85a3c192ad" />
+                </td>
+                <td className="productquantity0">
+                    <div className="productCount">
+                    <div className="minus">-</div>
+                    1
+                    <div className="plus">+</div>
+                    </div>
+            
+                </td>
+                    <td className="unitprice0">
+                    150    
+                    <input type="hidden" id="productPrice270189" value="150" />
+                    </td>
+                <td className="totalprice0" id="totalPrice270189">
+                150
+                </td>
+                <td>
+                    <a href="include/delete.php?msg=product64b85a3c192ad">
+                    <div className="delete">
+                    <IoMdClose />
+                    <div className="angle" >
+                    <div className="right-arr" ></div>
+                    <div className="left-arr" > </div>
+                    </div>
+
+                    </div>
+                    </a>
+                    </td>
+                </tr>
+
+
+
+
             </tbody>
                 </table>
             </div>
@@ -262,6 +538,31 @@ function Pos() {
        </div> 
        150 
     </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
     <a href="sell.php?id=1818">
     <div className="productBtn" >
         sell
@@ -270,7 +571,80 @@ function Pos() {
     </div>
 
 
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
     
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+    <div className="posProduct">
+
+    <div className="productIcon">
+    <FiBox />
+    </div>
+
+    <div className="productNameCon">
+        <p id="productName"> STRAWBERRY FLOVOR BREAD DULCET</p>
+        <p>Quantity <span>1219</span></p>
+    </div>
+    
+    <div className="posProductPrice">
+        <div className='currency'> 
+        ₦
+       </div> 
+       150 
+    </div>
+    <a href="sell.php?id=1818">
+    <div className="productBtn" >
+        sell
+    </div>
+    </a>    
+    </div>
+
+
+
     <div className="posProduct">
 
     <div className="productIcon">

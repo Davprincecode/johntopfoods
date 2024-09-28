@@ -10,6 +10,7 @@ import Header from "./component/Header";
 import Footer from "./component/Footer";
 import Homes from "./inventory/Homes";
 import Pos from "./inventory/Pos";
+import Table from "./inventory/Table";
 // import MapUi from "./component/MapUi";
 // import { GoogleLogin } from '@react-oauth/google';
 // import { jwtDecode } from "jwt-decode";
@@ -46,6 +47,7 @@ function App() {
     <Routes>
         <Route path="/mart" element={<Homes  />} />
         <Route path="/pos" element={<Pos  />} />
+        <Route path="/table" element={<Table  />} />
         
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
