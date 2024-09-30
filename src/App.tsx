@@ -12,6 +12,7 @@ import Homes from "./inventory/Homes";
 import Pos from "./inventory/Pos";
 import Table from "./inventory/Table";
 import Form from "./inventory/Form";
+import Tchart from "./inventory/Tchart";
 // import MapUi from "./component/MapUi";
 // import { GoogleLogin } from '@react-oauth/google';
 // import { jwtDecode } from "jwt-decode";
@@ -50,6 +51,8 @@ function App() {
         <Route path="/pos" element={<Pos  />} />
         <Route path="/table" element={<Table  />} />
         <Route path="/form" element={<Form  />} />
+        <Route path="/chart" element={<Tchart  />} />
+
         
         <Route path="/" element={<Home />} />
         <Route path="/blog" element={<Blog />} />
