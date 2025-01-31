@@ -2,19 +2,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
-import { baseUrl, imageUrl } from "../apis/fetchData";
+import { baseUrl} from "../apis/fetchData";
 
 interface Blog {
 blogId: string;
 blogTitle: string;
 blogContent: string;
 blogMedia: string;
-}
-
-interface ApiResponse {
-  requestSuccessful: boolean;
-  responseMessage: string;
-  responseBody: Blog;
 }
 
 function Blog() {
@@ -34,23 +28,12 @@ function Blog() {
       };
 
       try {
-        const response = await fetch(`${baseUrl}/blog`, requestOptions);
+        const response = await fetch(`${baseUrl}/blogs`, requestOptions);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const responseDetails = await response.json();
-        
-
-        if (responseDetails.data) {
-
-          const extractedProducts = responseDetails.data
-            .filter((item: ApiResponse) => item.requestSuccessful)
-            .map((item: ApiResponse) => item.responseBody);
-
-          setBlogs(extractedProducts);
-        } else {
-          setError("Invalid response format");
-        }
+        setBlogs(responseDetails.data);
       } catch (error: any) {
         setError(`Failed to fetch products: ${error.message}`);
       } finally {
@@ -81,7 +64,7 @@ function Blog() {
         <div className="blog" key={index}>
           <Link to={`/blogdetails/${item.blogId}`}>
          <div className="blogImg">
-            <img src={`${imageUrl}${item.blogMedia}`} alt={item.blogMedia} />
+            <img src={item.blogMedia} alt={item.blogMedia} />
          </div>
          <div className="blogContent">
             <div className="blogTitle">

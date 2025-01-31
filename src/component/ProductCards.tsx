@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { baseUrl, imageUrl } from "../apis/fetchData";
+import { baseUrl} from "../apis/fetchData";
 
 interface Product {
   productId: number;
@@ -8,12 +8,6 @@ interface Product {
   productSize: string;
   productPrice: number;
   productImage: string;
-}
-
-interface ApiResponse {
-  requestSuccessful: boolean;
-  responseMessage: string;
-  responseBody: Product;
 }
 
 function ProductCards() {
@@ -33,23 +27,12 @@ function ProductCards() {
       };
 
       try {
-        const response = await fetch(`${baseUrl}/products`, requestOptions);
+        const response = await fetch(`${baseUrl}/productweb`, requestOptions);
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
         const responseDetails = await response.json();
-        
-
-        if (responseDetails.data) {
-
-          const extractedProducts = responseDetails.data
-            .filter((item: ApiResponse) => item.requestSuccessful)
-            .map((item: ApiResponse) => item.responseBody);
-
-          setProducts(extractedProducts);
-        } else {
-          setError("Invalid response format");
-        }
+        setProducts(responseDetails.data);
       } catch (error: any) {
         setError(`Failed to fetch products: ${error.message}`);
       } finally {
@@ -77,7 +60,7 @@ function ProductCards() {
         {products.map((item, index) => (
           <div className="cardsItems" key={index}>
             <div className="productImg">
-              <img src={`${imageUrl}${item.productImage}`} alt={item.productName} />
+              <img src={item.productImage} alt={item.productName} />
             </div>
             <div className="productDetails">
               <div className="productName">
