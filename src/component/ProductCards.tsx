@@ -28,6 +28,7 @@ function ProductCards() {
 
       try {
         const response = await fetch(`${baseUrl}/productweb`, requestOptions);
+        
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }

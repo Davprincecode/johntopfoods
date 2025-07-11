@@ -8,10 +8,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 function AboutUs() {
   return (
     <div className='aboutUs' id="aboutUs">
-     
       <div className="aboutCon">
-        
-
         <div className="aboutUsDetails">
            <h2>Welcome to Johntop Foods</h2>
            <p>

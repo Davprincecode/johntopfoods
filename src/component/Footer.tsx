@@ -17,17 +17,23 @@ function Footer() {
 
  <div className="contactflex">
 
-    <div className="contactholder">
+    <div className="contactholder" id="contact1">
+
       <div className="contact1">
         <h4>locations</h4>
+        <h6>📍 Ile-Ife, Osun State – Central Market Branch</h6>
         <p>
         Zone E Block 7 shop 3 Beside OGD TUTORS OAU CENTRAL MARKET, OAU ILE-IFE, OSUN STATE
         </p>
         <br />
+
+        <h6>📍 Ile-Ife, Osun State – TIC Branch</h6>
         <p>
         Unit 3 Technology Incubation Centre, Ita Osa, Ondo Road, Ile-Ife, Osun State, Nigeria.
         </p>
         <br />
+
+        <h6>📍 Ilaje, Ondo State – Coastal Branch</h6>
         <p>
         No 1 Broad Street Ayetoro Ilaje Ondo State
         </p>
@@ -86,7 +92,10 @@ function Footer() {
 
  <div className="underline"></div>
   <div className="copyright">
-    copyright @ 2024 develop by davprincecode </div>
+    <p>© 2024 Johntop Foods. All rights reserved.</p>
+    <p>Developed by <a href="https://davtechie.org/" target="_blank" style={{color: "#007bff", textDecoration: "none"}}>Davprincecode</a></p>
+    
+    </div>
 </div>
 
 {/* <!-- ========contact end=========== --> */}

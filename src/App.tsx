@@ -1,6 +1,4 @@
-// import { useState } from 'react';
 import { Route, Routes} from "react-router-dom";
-import './App.css'
 import Home from './pages/Home';
 import 'react-multi-carousel/lib/styles.css';
 import ContactBtn from "./component/ContactBtn";
@@ -13,6 +11,11 @@ import Pos from "./inventory/Pos";
 import Table from "./inventory/Table";
 import Form from "./inventory/Form";
 import Tchart from "./inventory/Tchart";
+import LandingPage from "./pages/LandingPage";
+import PageDetails from "./pages/PageDetails";
+import NewLandingPage from "./pages/NewLandingPage";
+import AboutUs from "./pages/AboutUs";
+
 // import MapUi from "./component/MapUi";
 // import { GoogleLogin } from '@react-oauth/google';
 // import { jwtDecode } from "jwt-decode";
@@ -53,8 +56,12 @@ function App() {
         <Route path="/form" element={<Form  />} />
         <Route path="/chart" element={<Tchart  />} />
 
-        
+
+        <Route path="/pages" element={<LandingPage />}/>
+        <Route path="/pagedetail" element={<PageDetails />}/>
         <Route path="/" element={<Home />} />
+        <Route path="/new" element={<NewLandingPage />} />
+        <Route path="/about-us" element={<AboutUs />} />
         <Route path="/blog" element={<Blog />} />
         <Route path="/blogdetails/:blogId" element={<BlogDetails />} />
     </Routes>

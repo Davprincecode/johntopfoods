@@ -1,8 +1,6 @@
-// import seaFood from "../assets/images/seafood.png";
-// import seaFood2 from "../assets/images/seafood2.png";
 import super1 from "../assets/images/supermarket1.jpeg";
-import super2 from "../assets/images/supermarket2.jpeg";
 import super3 from "../assets/images/supermarket3.jpeg";
+import super4 from "../assets/images/img.jpg";
 import Carousel from 'react-multi-carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
@@ -31,7 +29,7 @@ function Supply() {
      
      <div className='aboutUs'>
      
-     <div className="aboutCon">
+     <div className="aboutCon" id="aboutUsCon">
    {/* ======================== */}
    <div className="carsel">
 <Carousel 
@@ -44,37 +42,16 @@ function Supply() {
  partialVisible={false}
 
 >
-       <div className="aboutUsImg">
+       <div className="aboutUsImg" id="aboutUsImgSupply">
            <img src={super1} alt="" />
-        {/* <div className="aboutBtn">
-       <div className="btn">
-           <p>contact us</p>
-           <FontAwesomeIcon icon={faArrowRight} />
        </div>
-       </div> */}
+        <div className="aboutUsImg" id="aboutUsImgSupply">
+           <img src={super4} alt="" />
        </div>
-
-
-       <div className="aboutUsImg">
-           <img src={super2} alt="" />
-        {/* <div className="aboutBtn">
-       <div className="btn">
-           <p>contact us</p>
-           <FontAwesomeIcon icon={faArrowRight} />
-       </div>
-       </div> */}
-       </div>
-
-
-       <div className="aboutUsImg">
+       <div className="aboutUsImg" id="aboutUsImgSupply">
            <img src={super3} alt="" />
-        {/* <div className="aboutBtn">
-       <div className="btn">
-           <p>contact us</p>
-           <FontAwesomeIcon icon={faArrowRight} />
        </div>
-       </div> */}
-       </div>
+      
 </Carousel>
 </div>
   {/* ====================== */}
@@ -82,32 +59,29 @@ function Supply() {
        <div className="aboutUsDetails">
           <h2>Some Supermarkets We Supply</h2>
           <p>
-          We supply a wide range of seafood products to these supermarkets, ensuring that customers have access to fresh and high-quality seafood options. If you're a supermarket owner or manager, consider partnering with us to offer your customers the best seafood experience!
+          At Johntop Foods, we  supply over 90+ outlets across Ogun State, Ondo State , Oyo State, kwara State , Lagos State, Osun State and FCT Abuja including:
           </p>
           <ul>
+              <li>
+                  🛒 Supermarkets
+                </li>
+                <li>
+                  🏬 Shopping Malls
+                </li>
+                <li>
+                  🍽️ Hotels & Restaurants
+                </li>
+                <li>
+                  👩‍🍳 Kitchens & Catering Services
+              </li>
+          </ul>
 
-  <p> Osun State </p> 
-
-<li> Ace supermarket Osogbo.</li> 
-<li>Embassy supermarket Osogbo.</li>
-<li>Magrite mall Osogbo</li>
-<li>Lead superstore Osogbo </li>
-<li>Vanguard pharmacy, opp. Technical college Osogbo.</li>
-<li>More Mart Osogbo</li>
-<li>Ojaja More Osogbo</li>
-<li>City star⭐ Mart Osogbo</li>
-<li>Vanguard Pharmacy Power lines Area Osogbo </li>
-<li>BTQ Superstore Testing ground Area Osogbo</li>
-
-<p> Kwara state </p> 
-<li>Ace supermarket Ilorin.</li>
-
-<p> Ogun state </p>
-
-<li>Ace Abeokuta</li>
-<li>Ace Ijebu-Ode</li>
-{/* <li>Vanguard Pharmacy</li> */}
-
+          <div className="supplycon">
+            <p>
+              We deliver both premium dried, ground or spicy and fresh seafood products — trusted by top retailers and food service providers for quality, hygiene, and consistency
+            </p>
+          </div>
+          <ul>    
  <p> Oyo state </p> 
 <li> Ace mall Bodija, Akobo and Oluyole</li> 
 <li> Brent supermarket Apata, Old Ife road and Moniya</li>
@@ -118,27 +92,8 @@ function Supply() {
 <li>  More Mart inside Vintage Mall Alakia and Olorunsogo</li> 
 <li> Westmead supermarket Mokola</li>
 <li> His Praise supermarket Bodija</li> 
-<li> Sunrise supermarket (Bond Mall) Bodija, Akala way and Ring road</li>
 <li> Foodco  (check all the 14 outlets in Ibadan)</li>
-<li> Hailey supermarket Kolade Ishola Akobo</li>
-<li> Minarets Pharmacy Apete and branches</li> 
-<li> Optimed pharmacy Monatan and branches</li>
-<li> Grocery park supermarket inside Iris Mall Apata Ibadan</li>
-<li>Tasbif supermarket Ogbomoso.</li>
-<li>Alata supermarket Ogbomoso.</li>
-<li>Ace supermarket Ogbomoso.</li>
-<li>Brent supermarket Ogbomoso.</li>
-<li>Ace supermarket Iseyin</li>
-<li>Ace supermarket Saki</li>
-
-
-
-<p> Abuja </p> 
-<li>Cost cutter supermarket Abuja</li>
-
-
-
-          </ul>
+  </ul>
        
       <div className="aboutBtn">
       <a href="https://wa.me/2348057386375?text=Hello,  Can you supply us with your product in our suppermarket">

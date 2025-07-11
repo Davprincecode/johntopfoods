@@ -54,7 +54,7 @@ function SuperMat() {
   return (
     <div className="superMat">
       <div className="superHeader">
-        <h1>Supermarket We Supply</h1>
+        <h1>Some Supermarkets We Supply</h1>
     </div> 
     <div className="superDetails">
 
