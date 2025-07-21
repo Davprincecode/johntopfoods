@@ -1,10 +1,5 @@
-import React from 'react'
-import image1 from '../assets/images/balma.png'
-import image2 from '../assets/images/super1.jpg'
-import image3 from '../assets/images/super1-removebg.png'
-import image4 from '../assets/images/100g (sole fish) - Ziplock pack.jpg'
 import image5 from '../assets/images/100g - Plastic pack.jpg'
-import image6 from '../assets/images/1721742448.jpg'
+
 
 
 const PageDetails = () => {

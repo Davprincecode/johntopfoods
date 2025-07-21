@@ -1,9 +1,11 @@
 import super1 from "../assets/images/supermarket1.jpeg";
 import super3 from "../assets/images/supermarket3.jpeg";
 import super4 from "../assets/images/img.jpg";
+import super5 from "../assets/images/img4.png";
 import Carousel from 'react-multi-carousel';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import { NavLink } from "react-router-dom";
 const responsive = {
     superLargeDesktop: {
       // the naming can be any, depends on you.
@@ -32,16 +34,15 @@ function Supply() {
      <div className="aboutCon" id="aboutUsCon">
    {/* ======================== */}
    <div className="carsel">
-<Carousel 
- responsive={responsive}
- autoPlay={true}
- swipeable={true}
- draggable={true}
-//  showDots={true}
- infinite={true}
- partialVisible={false}
-
->
+        <Carousel 
+        responsive={responsive}
+        autoPlay={true}
+        swipeable={true}
+        draggable={true}
+        //  showDots={true}
+        infinite={true}
+        partialVisible={false}
+        >
        <div className="aboutUsImg" id="aboutUsImgSupply">
            <img src={super1} alt="" />
        </div>
@@ -51,15 +52,22 @@ function Supply() {
        <div className="aboutUsImg" id="aboutUsImgSupply">
            <img src={super3} alt="" />
        </div>
+       <div className="aboutUsImg" id="aboutUsImgSupply">
+           <img src={super5} alt="" />
+       </div>
       
 </Carousel>
-</div>
+   </div>
   {/* ====================== */}
     {/* ===================== */}
        <div className="aboutUsDetails">
-          <h2>Some Supermarkets We Supply</h2>
+
+        <div className="header-title">
+            <div className="doticon"></div>
+             <h2> Some Supermarkets We Supply</h2>
+        </div>
           <p>
-          At Johntop Foods, we  supply over 90+ outlets across Ogun State, Ondo State , Oyo State, kwara State , Lagos State, Osun State and FCT Abuja including:
+          At Johntop Foods, we  supply over 90+ outlets across Oyo State, Osun State, Kwara State, Ondo State, Ogun State, Lagos State and FCT Abuja including:
           </p>
           <ul>
               <li>
@@ -92,16 +100,18 @@ function Supply() {
 <li>  More Mart inside Vintage Mall Alakia and Olorunsogo</li> 
 <li> Westmead supermarket Mokola</li>
 <li> His Praise supermarket Bodija</li> 
-<li> Foodco  (check all the 14 outlets in Ibadan)</li>
+<li> Foodco  (check all the 14 outlets in Ibadan) ....</li>
   </ul>
        
       <div className="aboutBtn">
-      <a href="https://wa.me/2348057386375?text=Hello,  Can you supply us with your product in our suppermarket">
+
+      <NavLink to="/supermarket-list">
        <div className="btn">
-           <p>contact for supply</p>
+           <p>View More</p>
            <FontAwesomeIcon icon={faArrowRight} />
        </div>
-       </a>
+       </NavLink>
+
        </div>
 
        </div>

@@ -6,7 +6,7 @@
 }
 
 :root{
-  --primaryColor : #EB232D;
+  --primaryColor : #dc2126;
   --secondaryColor : #DF9B2C;
   --secondary2Color : #D6DF20;
   --mixedColor : #DE8B2D;
@@ -150,7 +150,7 @@ li{
   height: 150px;
 }
 .overWrapPage{
-  padding: 0px 10px;
+  /* padding: 0px 10px; */
 }
 /* ================product cards ================= */
 
@@ -262,8 +262,79 @@ justify-content: center;
 } */
 /* ====================product cards end ====================== */
 
+/* ====================== header ================= */
+.herocon{
+  margin-top: 70px !important;
+  background-color: var(--primaryColor);
+}
+.herocon .aboutBtn{
+  display: block;
+  padding: 10px 0px !important;
+}
+#heroflex{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#heroflex .aboutUsDetails{
+width: 60%;
+}
+#heroflex  .aboutUsImg{
+width: 40% ;
+height: 400px !important;
+position: none;
+/* border: 1px solid; */
+}
+#heroflex  .aboutUsImg img{
+  object-fit: contain;
+}
+
+@media(max-width :  990px){
+#heroflex  .aboutUsImg img{
+  object-fit: cover;
+}
+}
+
+@media(max-width :  890px){
+#heroflex{
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+#heroflex .aboutUsDetails{
+width: 100%;
+}
+#heroflex  .aboutUsImg{
+width: 100% ;
+height: 350px !important;
+}
+#heroflex  .aboutUsImg img{
+  object-fit: contain;
+}
+}
+@media(max-width :  451px){
+  #heroflex  .aboutUsImg{
+width: 100% ;
+height: 400px !important;
+}
+#heroflex  .aboutUsImg img{
+  object-fit: cover;
+}
+}
+@media(max-width :  355px){
+ #heroflex  .aboutUsImg{
+width: 100% ;
+height: 300px !important;
+}
+
+}
+/* ==================== header end ================== */
 
 /* =============about us======== */
+.product-list-con{
+  padding: 10px;
+}
 .aboutUs{
   margin-top: 70px;
 }
@@ -303,9 +374,8 @@ justify-content: center;
 }
 .aboutUsImg{
 width: 100%;
-height: 250px;
-position: relative;
-z-index: -1;
+height: 400px;
+
 }
 .ant{
   display: none;
@@ -374,13 +444,26 @@ padding-left: 10px;
 flex: 1;
 width: 50%;
 }
+.supplierHero{
+  width: 100% !important;
+}
+.supplierHero #aboutUsImgSupply{
+border-radius: 0px !important;
+height: 500px !important;
+}
 .Supply{
   margin-bottom: 75px;
+  padding: 10px;
+}
+@media (max-width : 1000px) {
+  .supplierHero #aboutUsImgSupply{
+border-radius: 0px !important;
+height: 350px !important;
+}
 }
 .aboutUsDetails h2{
-  margin-bottom: 10px;
   color: var(--mixedColor);
-  font-size: 22px;
+  font-size: 20px;
 }
 .aboutUsDetails ul{
   margin-top: 10px;
@@ -415,18 +498,17 @@ color: white;
 font-weight: bold;
 border-radius: 10px !important;
 font-size: 12px;
-padding: 6px 20px;
 margin: 10px 0 0;
 background: -webkit-linear-gradient(-45deg, #EB232D 0%,#DE8B2D 100%);
 background: linear-gradient(135deg, #EB232D 0%,#DE8B2D 100%);
-
-
-  width: 169px !important;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-  font-size: 14px;
-  font-weight: bold;
-  cursor: pointer;
+width: 150px !important;
+padding-top: 12px !important;
+padding-bottom: 12px !important;
+padding-left: 20px;
+padding-right: 20px;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
 }
 .aboutBtn .btn p{
   margin-top: 0px;
@@ -450,6 +532,7 @@ background: linear-gradient(135deg, #EB232D 0%,#DE8B2D 100%);
 
 .superMat{
 margin-bottom: 50px;
+padding: 10px;
 }
 /* .superHeader{
 
@@ -469,6 +552,88 @@ color: var(--mixedColor);
 width: 150px;
 height: 110px;
 }
+
+.testimoniesContainer{
+ display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 35px 20px; 
+}
+.testimonies{
+  position: relative;
+  width: 150px;
+  height: 200px;
+}
+.preview{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: capitalize;
+  background: #f0f8ff40;
+}
+
+
+/* ================ testimonies ================ */
+.gallery-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.thumbnail {
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  border-radius: 8px;
+}
+
+.thumbnail:hover {
+  transform: scale(1.05);
+}
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-image-container {
+  width: 90%;
+  height: 100%;
+}
+
+.popup-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 20px #000;
+}
+
+
+/* =================== testimonies end ========== */
+
+
+
+
+
 
 /* =========supermat end =========== */
 .contactUs{
@@ -750,12 +915,53 @@ margin-top: 5px;
 /* ------------------------------------------------------- 
 
 /* --------------------- landing page --------------- */
-
+.category-section{
+margin: 15px 0px;
+}
+.category-section h2{
+  color: var(--primaryColor);
+  font-size: 14px;
+  text-transform: capitalize;
+}
+.flex-category-name{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.flex-category-name .doticon{
+  border: 0px;
+    background: #df9b2c;
+    border-radius: 0px;
+}
 .landingPageWrap{
     background-color: white !important;
+    padding: 10px;
+    margin-top: 20px;
 }
 .flex-parent{
-    border: 1px solid;
+    /* border: 1px solid; */
+}
+.flex-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.header-title h2{
+  color: var(--mixedColor);
+}
+.doticon{
+background-color: white;
+border-radius: 50%;
+height: 12px;
+width: 12px;
+border: 2px solid var(--secondaryColor);
 }
 .flex{
     display: flex;
@@ -804,7 +1010,14 @@ margin-top: 20px;
 
 }
 .flex-readmore a{
-
+background: #de8b2d;
+    color: white;
+    padding: 10px;
+    display: block;
+    width: 70%;
+    margin: 15px auto 0px auto;
+    border-radius: 5px;
+    font-weight: 500;
 }
   /* Tablet view: 3 per row */
   @media (max-width: 1023px) {
@@ -829,10 +1042,16 @@ margin-top: 20px;
     .imagewrapper {
        height: 200px;
       }
+      .header-title h1, .aboutUsDetails h2{
+        font-size: 20px;
+      }
+      .header-read-more a{
+        font-size: 14px;
+      }
   }
   @media(max-width: 400px){
     .flex-child {
-        width: calc(65% - 10px);
+        width: calc(80% - 10px);
         height: unset;
         padding-bottom: 10px;
         }

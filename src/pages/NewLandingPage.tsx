@@ -1,20 +1,21 @@
-import React from 'react'
 import Header from '../component/Header'
-import LandingPage from './LandingPage'
-import Supply from '../component/Supply'
+import Product from './Product'
+import Suppliers from '../component/Suppliers'
 import SuperMat from '../component/SuperMat'
 import Footer from '../component/Footer'
+import Testimonies from '../component/Testimonies'
+import HeroSection from '../component/HeroSection'
 
 const NewLandingPage = () => {
   return (
     <div className="bodyWrapper">
     <div className="overWrapPage">
-        <Header/>
-        <div className="flierHeroSection">
-        </div>
-        <LandingPage/>
-        <Supply />
+        <Header />
+        <HeroSection />
+        <Product />
+        <Suppliers />
         <SuperMat />
+        <Testimonies />
     </div>
     <Footer/>
     </div>

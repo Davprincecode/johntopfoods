@@ -25,7 +25,6 @@ function SuperMat() {
 
       try {
         const response = await fetch(`${baseUrl}/suppliers`, requestOptions);
-        
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
@@ -53,9 +52,11 @@ function SuperMat() {
   }
   return (
     <div className="superMat">
-      <div className="superHeader">
-        <h1>Some Supermarkets We Supply</h1>
-    </div> 
+      <div className="header-title">
+            <div className="doticon"></div>
+             <h2>Some Supermarkets We Supply</h2>
+        </div>
+
     <div className="superDetails">
 
      {Suppliers.map((items, index)=>(

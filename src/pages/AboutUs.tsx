@@ -1,13 +1,19 @@
-import React from 'react'
-// Spanish.jpg
-import seaFood2 from "../assets/images/200g- Plastic pack .jpeg";
-import crayfish from "../assets/images/crayfishmove.png";
+import seaFoods from '../assets/images/Combine.jpg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
 import Header from '../component/Header'
 import Footer from '../component/Footer'
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const AboutUs = () => {
+     const { pathname } = useLocation();
+    
+      useEffect(() => {
+        window.scrollTo(0, 0);
+      }, [pathname]);
+
+
   return (
     <div className="bodyWrapper">
         <Header/>
@@ -15,10 +21,8 @@ const AboutUs = () => {
       <div className="aboutCon">
 
         <div className="aboutUsImg">
-            <img src={seaFood2} alt="" />
-            {/* <div className="ant">
-              <img src={crayfish} />
-            </div> */}
+            <img src={seaFoods} alt="" />
+            
         </div>
 
         <div className="aboutUsDetails">
@@ -34,10 +38,10 @@ const AboutUs = () => {
                 We are fully approved and recognized:
             </p>
             <ul>
-                <li>✅ CAC Registered</li>
+                <li>✅ CAC (Corporate Affairs Commission) Registered</li>
                 <li>✅ Trademark Certified</li>
                 <li>✅ SON (Standards Organisation of Nigeria)</li>
-                <li>✅ NAFDAC Certified</li>
+                <li>✅ NAFDAC (National Agency for Food and Drug Administration and Control) Certified</li>
             </ul>
             </div>
 
